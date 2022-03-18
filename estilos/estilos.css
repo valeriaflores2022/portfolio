@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+#contenedor{
+    width: 1000px;
+    margin: auto;
+}
+
+header{
+    width: 940px;
+    height: 100px;
+    background-color: black;
+    padding:10px 30px;
+    position: relative;
+}
+
+#logo{
+    background-image: url(../imagenes/LOGOSEREDE.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    font-size: 0px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+nav ul{
+    width: 700px;
+    position: absolute;
+    top:40px;
+    padding-left: 350px;
+}
+
+nav ul li{
+    list-style-type: none;
+    width: 120px;
+    margin-left: 10px;
+    background-color: white;
+    display: inline-block;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+
+nav ul li a{
+    width: 100px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: white;
+
+}
+
+
+
+
+footer{
+    width: 900px;
+    height: 150px;
+    background-color: black;
+    padding: 10px 50px;
+    margin: auto;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+
+#contactanos{
+    width: 300px;
+    height: 210px;
+    padding: 10px;
+    float: left;
+}
+
+#contactanos p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+   font-family: 'Alumni Sans', sans-serif;
+}
+
+#contactanos ul li{
+    color: white;
+    list-style-type: none;
+    padding: 5px;
+}
+
+#contactanos ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+#contactanos ul li address{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+
+#redes{
+    margin-top: 15PX;
+    width: 200px;
+    height: 210px;
+    padding: 10px;
+    float: right;
+}
+
+#redes p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+#redes ul li{
+    list-style-type: none;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#redes ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+
+
+#boton-subir {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 100px;
+    text-align: center;
+    position: fixed;
+    right: 25px;
+    bottom: 35px;
+}
+
+#boton-subir a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+#sobremi{
+    padding-top: 130px;
+    padding-bottom: 150px;
+    background-color: black;
+    color: white;
+    width: 1000px;
+    font-size: 20px;
+    
+
+}
+
+#sobremi article{
+    display: inline-block;
+    width: 400px;
+    padding-left: 60px;
+    text-align: top;
+    margin-bottom: 100px;
+
+}
+
+#sobremi h2{
+    margin-bottom: 50px;
+}
+#sobremi p{
+    line-height: 40px;
+    font-family: 'Alumni Sans', sans-serif;
+
+}
+
+#sobremi img{
+    margin-left: 70px;
+}
+
+#servicios{
+  
+    padding-top: 60px;
+    padding-bottom: 70px;
+    background-color: black;
+    color: white;
+   
+}
+
+#servicios article{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#servicios h2{
+    text-align:  center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+#servicios ul li{
+    list-style: none;   
+    margin-left: 70px;
+    font-family: 'Alumni Sans', sans-serif;
+font-size: 20px;
+   
+}
+
+
+#contacto{
+ 
+    padding-top: 110px;
+    padding-bottom: 120px;
+    background-color: black;
+    color: white;
+    width: 1000px;
+
+}
+
+#contacto article{
+    display: inline-block;
+    width: 300px;
+    padding-left: 60px;
+    margin-bottom: 00px;
+}
+
+#contacto h2{
+    margin-bottom: 200px;
+    font-size: 30px;
+}
+
+#contacto ul li{
+    list-style: none;
+    line-height: 30px;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+
